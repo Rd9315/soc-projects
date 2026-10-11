@@ -1,0 +1,20 @@
+title: Repeated Windows Failed Logons
+id: 9a5b7d12-13c4-4a21-9b11-000000000001
+status: test
+description: Starter rule idea; aggregate repeated failures in a SIEM over a short window.
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID: 4625
+  condition: selection
+falsepositives:
+  - Mistyped passwords
+  - Stale service credentials
+level: medium
+tags:
+  - attack.credential_access
+  - attack.t1110
+# Note: a single-event Sigma rule cannot express the full count/window correlation
+# consistently across backends. Add a backend-specific threshold/correlation rule.
